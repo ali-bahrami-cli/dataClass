@@ -29,10 +29,9 @@ public class MainActivity extends AppCompatActivity {
         result = findViewById(R.id.result);
 
         preferences = getApplicationContext().getSharedPreferences("calcPrefs", Context.MODE_PRIVATE);
-
-        String lastResult = preferences.getString("result", "no data");
         editor = preferences.edit();
 
+        String lastResult = preferences.getString("result", "no data");
         result.setText(" the last result : \n " + lastResult);
 
         calculateBtn.setOnClickListener(new View.OnClickListener() {
