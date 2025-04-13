@@ -11,11 +11,11 @@
         android:layout_height="50dp"
         android:text="ماشین حساب"
         android:gravity="center"
-        android:background="#2196F3"
+        android:background="#9C2196F3"
         android:layout_marginBottom="30dp"
         android:textSize="30dp"
         android:layout_marginTop="10dp"
-        ></TextView>
+        />
 
     <EditText
         android:id="@+id/number1"
@@ -23,7 +23,8 @@
         android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="10dp"
+        />
 
     <EditText
         android:id="@+id/number2"
@@ -41,7 +42,6 @@
 
     <TextView
         android:id="@+id/result"
-        android:text="last result :"
         android:textSize="18sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
