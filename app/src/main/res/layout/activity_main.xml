@@ -41,7 +41,7 @@
 
     <TextView
         android:id="@+id/result"
-        android:text="نتیجه قبلی:"
+        android:text="last result :"
         android:textSize="18sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
