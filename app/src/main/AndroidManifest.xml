@@ -25,6 +25,12 @@
         </activity>
 
 
+        <activity
+            android:name=".ContactModelActivity"
+            android:exported="true">
+
+        </activity>
+
     </application>
 
 </manifest>
